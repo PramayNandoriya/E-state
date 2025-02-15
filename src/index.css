@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+
+/* Apply styling to the scrollbar */
+::-webkit-scrollbar {
+  width: 10px; /* Adjust width for thin scrollbar */
+  /* height: 1px; Adjust height for thin horizontal scrollbar */
+}
+
+/* Style the scrollbar track */
+::-webkit-scrollbar-track {
+  background-color: gray; /* Light gray background for the track */
+}
+
+/* Style the scrollbar thumb (the draggable part) */
+::-webkit-scrollbar-thumb {
+  background-color: #555; /* Gray color for the thumb */
+  border-radius: 10px; /* Optional: round the corners */
+}
+
+/* Style when the thumb is hovered */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555; /* Darker gray when hovering */
+}
